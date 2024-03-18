@@ -241,7 +241,7 @@ Version: 1.0
 
 .navbar .attr-right .attr-nav li:nth-child(2) a {
 	border: 2px solid var(--color-primary);
-	background-color: white;
+	/* background-color: white; */
 	color: var(--color-primary);
 }
 
