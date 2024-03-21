@@ -6137,6 +6137,7 @@ footer .f-items .f-item .address {
 footer .f-items .f-item .address li {
 	display: flex;
 	margin-bottom: 25px;
+	margin-right: 20px;
 }
 
 footer .f-items .f-item .address li i {
