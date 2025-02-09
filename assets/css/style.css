@@ -562,8 +562,8 @@ input {
 	padding-bottom: 120px;
 }
 
-.default-padding.bottom-less {
-	padding-top: 120px;
+.default-padding.size-less {
+	padding-top: 90px;
 	padding-bottom: 90px;
 }
 
@@ -1916,12 +1916,12 @@ body,
 	}
 }
 
-.banner-area .content-box .btn-area {
+.btn-area {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
-.banner-area .content-box .free-btn {
+.btn-area .free-btn {
 	background-color: #00BFA5;
 	color: white;
 	font-size: 16px;
@@ -2493,6 +2493,7 @@ body,
 	font-weight: 700;
 	margin-bottom: 6px;
 }
+
 
 
 /* ============================================================== 
@@ -4454,7 +4455,7 @@ ul.achivement li .medium {
 	height: 400px;
 	border-radius: 20px;
 	overflow: hidden;
-	box-shadow: 0px 3px 32px 3px #00897B66;
+	/* box-shadow: 0px 3px 32px 3px #00897B66; */
 }
 
 .team-area .feature-items .video-area video {
@@ -4679,82 +4680,72 @@ ul.achivement li .medium {
 	overflow: hidden;
 }
 
-.testimonials-area .item .provider {
-	display: flex;
-	align-items: center;
-	margin-bottom: 10px;
+.testimonials-area .logo-mybox {
+	width: 380px;
+	padding-bottom: 22px;
 }
 
-.testimonials-area .item .provider img {
-	height: 70px;
-	width: 70px;
-	min-width: 70px;
-	border-radius: 50%;
-	margin-right: 20px;
-	border: 3px solid rgba(255, 255, 255, 1);
+.testimonials-area .site-heading .title-text h2 {
+	display: inline;
+	margin-right: 10px;
 }
 
-.testimonials-area .item .provider h4 {
-	font-weight: 900;
-	margin-bottom: 5px;
-	color: var(--white);
-}
-
-.testimonials-area .item .provider span {
-	color: var(--white);
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 13px;
-}
-
-.testimonials-area .item .reason {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-top: 20px;
-	border-top: 1px solid rgba(255, 255, 255, 0.3);
-	padding-top: 20px;
-}
-
-.testimonials-area .item .reason h5 {
-	margin: 0;
-	font-weight: 900;
-	color: var(--white);
-}
-
-.testimonials-area .item {
-	padding: 50px 37px;
-	background: linear-gradient(45deg, #02ebad 0%, #5a57fb 35%);
-	border-radius: 30px;
+.testimonials-area li {
+	margin-bottom: 30px;
+	padding-left: 45px;
 	position: relative;
 	z-index: 1;
+}
+
+.testimonials-area li h5 {
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 6px;
+}
+
+.testimonials-area li p {
+	margin: 0;
+}
+
+.testimonials-area li::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "\f00c";
+	font-family: "Font Awesome 5 Pro";
+	font-size: 11px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border: 1px solid var(--color-paragraph);
+	text-align: center;
+	border-radius: 5px;
+	color: var(--color-primary);
+	font-weight: 900;
+}
+
+
+.testimonials-area .btn-area {
+	text-align: center;
+	margin-top: 80px;
+}
+
+
+.testimonials-area .video-area {
+	width: 573px;
+	height: 338px;
+	border-radius: 20px;
+	overflow: hidden;
+	/* box-shadow: 0px 3px 32px 3px #00897B66; */
+}
+
+.testimonials-area .video-area video {
+	width: 573px;
+	height: 338px;
+	position: relative;
 	overflow: hidden;
 }
 
-.testimonials-area .item::after {
-	position: absolute;
-	right: 50px;
-	top: 20px;
-	content: "\f10d";
-	font-family: "Font Awesome 5 Pro";
-	color: var(--white);
-	font-size: 150px;
-	z-index: -1;
-	opacity: 0.1;
-	font-weight: 100;
-	transform: rotate(180deg);
-}
-
-.testimonials-area .item .reason i {
-	font-size: 12px;
-	color: #FFCA40;
-}
-
-.testimonials-area .item p {
-	color: var(--white);
-	opacity: 0.9;
-	font-size: 18px;
-}
 
 
 /* ============================================================== 
