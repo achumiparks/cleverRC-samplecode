@@ -4707,6 +4707,12 @@ ul.achivement li .medium {
 	margin: 0;
 }
 
+.testimonials-area .text-secendarycolor span {
+	margin: 0;
+	color: var(--color-primary);
+	font-weight: 900;
+}
+
 .testimonials-area li::after {
 	position: absolute;
 	left: 0;
